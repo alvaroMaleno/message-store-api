@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  message-db:
+    image: ethangarofolo/message-db:1.3.1
+    ports:
+      - '0.0.0.0:5434:5432'
